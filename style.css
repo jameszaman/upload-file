@@ -1,0 +1,68 @@
+.upload-main-container {
+   height: 350px;
+   width: 430px;
+}
+.upload-container {
+   position: relative;
+   height: 300px;
+   width: 100%;
+   border-radius: 10px;
+   border: 4px dashed #bac1ca;
+   background: rgb(240, 238, 238);
+   overflow: hidden;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.image-container {
+   position: absolute;
+   height: 100%;
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.preview-image {
+   height: 100%;
+   width: 100%;
+   object-fit: cover;
+   display: none;
+}
+.cancel-button {
+   position: absolute;
+   right: 15px;
+   top: 15px;
+   font-size: 25px;
+   cursor: pointer;
+   color: rgb(241, 127, 92);
+   display: none;
+}
+.main-button {
+   width: 100%;
+   margin-top: 30px;
+   padding: 15px 0px;
+   border: none;
+   background-color: #26cc6e;
+   border-radius: 20px;
+   color: white;
+   font-size: 20px;
+   cursor: pointer;
+   outline: none;
+}
+.main-button:hover {
+   background-color: #40e286;
+}
+.active {
+   border: 4px solid #bac1ca;
+}
+.upload-container.active .cancel-button {
+   display: block;
+}
+.upload-container.active .cancel-button:hover {
+   display: block;
+   color: #3a8ffe;
+}
+.upload-text {
+   font-size: 30px;
+   color: rgb(33, 33, 33);
+}

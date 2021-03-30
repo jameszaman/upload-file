@@ -1,0 +1,1 @@
+This is just a simple input type file which shows what image is being uploaded.
